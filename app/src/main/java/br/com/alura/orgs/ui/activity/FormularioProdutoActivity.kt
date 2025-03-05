@@ -18,7 +18,7 @@ class FormularioProdutoActivity : AppCompatActivity() {
     private val binding by lazy {
         ActivityFormularioProdutoBinding.inflate(layoutInflater)
     }
-    private var url: String? = null
+    private var url: String? = "https://images.tcdn.com.br/img/img_prod/795791/cesta_de_frutas_para_cafe_da_tarde_primavera_caminho_da_fazenda_643_1_86ef92f6cee0b41a693a0d75a14c0c84.jpg"
     private var produtoId = 0L
     private val produtoDao: ProdutoDao by lazy {
         val db = AppDatabase.instancia(this)
